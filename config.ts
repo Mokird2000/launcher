@@ -7,12 +7,12 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'RunLauncher',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://78.29.49.247:1370/ws',
+    web: 'http://78.29.49.247:1370',
     // extraToken: token,
 };
 

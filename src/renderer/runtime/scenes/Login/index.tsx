@@ -56,7 +56,7 @@ export default function Login() {
     return (
         <div className={classes.block}>
             <img src={logo} />
-            <div>Aurora Launcher</div>
+            <div>RunLauncher</div>
             <p>
                 Введите логин и пароль,
                 <br />
@@ -64,7 +64,6 @@ export default function Login() {
             </p>
             <form onSubmit={auth}>
                 <input type="text" placeholder="Логин" name="login" />
-                <input type="password" placeholder="Пароль" name="password" />
                 <button>Войти</button>
             </form>
         </div>
